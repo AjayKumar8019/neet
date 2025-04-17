@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="predictor.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="collage.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@100;500&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      </head>
+      <body>
+        <script>
+          AOS.init();
+        </script>
+    <div id="nav-placeholder">
+    </div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("navbar.html", function () {
+                updateCartCounter(); // Ensure counter updates after loading nav
+            });
+        });
+    </script>
+    <!-- section-1 -->
+    <div class="the-medical">
+        <div class="med-text"  data-aos="fade-up"
+        data-aos-duration="3000">
+            <h1>Get in Touch with<br> NEET Navigator Bridge<br>to Medical Success</h1>
+            <p>
+                Realize your dream of MBBS, BDS, BAMS admission in The Best Medical<br> College With The Best Medical
+                Admission Counselling Services
+            </p>
+        </div>
+        <div class="med-img"  data-aos="fade-down"
+        data-aos-duration="3000">
+            <img src="../Photos/contact.png">
+        </div>
+    </div>
+
+    <!-- section 2 -->
+
+    <div style="padding-bottom: 100px;" class="expand">
+        <div class="expand-text" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+            <h1>Expand your horizon of<br> MBBS Admissions</h1>
+            <p>NEET Navigator will ensure that You get to<br> optimize the outcome of the medical admission<br>
+                counselling process.</p>
+        </div>
+        <div class="expand-form" data-aos="fade-down"
+        data-aos-anchor-placement="top-bottom">
+            <form>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" class="my-inputs" placeholder="Enter your email" required><br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" class="my-inputs" placeholder="Enter your password" required>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">Label <br>
+                        <span style="padding-left: 16px;">Description</span> </label>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+        <!-- section 3 -->
+
+    <div class="headquaters" >
+        <div class="head-text" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+            <h1>Headquarters</h1>
+            <p>NEET Navigator Educational Services B-114, North <br>Ex Mall, Sector-9, Rohini, Delhi (INDIA) 110085</p>
+            <h1>Phone Number</h1>
+            <a href="">+91 99103 75900</a>
+            <h1>Email Address</h1>
+            <a href="#">+91 99103 info@neetnavigator.com</a><br>
+            <a href="#">lighthouse@neetnavigator.com</a>
+        </div>
+        <div class="head-map" data-aos="fade-down"
+        data-aos-anchor-placement="bottom-bottom">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13709.424126794716!2d76.48781756696606!3d30.79264852566371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ffda685aa4d49%3A0x4aad1fbec56611e4!2sMorinda%2C%20Punjab%20140101!5e0!3m2!1sen!2sin!4v1743419893023!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div id="footer">
+    </div>
+    <script>
+        $(function () {
+            $("#footer").load("footer.html", function () {
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+/* section 1 */
+.across-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f1f9f5;
+    gap: 50px;
+  }
+  
+  .across-content h1 {
+    color: #0c8b51;
+    font-size: 50px;
+    line-height: 52px;
+    margin-bottom: 20px;
+  }
+  
+  .across-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 27px;
+    max-width: 600px;
+  }
+  
+  .across-image {
+    text-align: start;
+  }
+  
+  .across-image img {
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 1024px) {
+    .across-section {
+      flex-direction: row;
+      text-align: center;
+    }
+  
+    .across-content h1 {
+      font-size: 40px;
+      line-height: 44px;
+      text-align: start;
+    }
+  
+    .across-content p {
+      font-size: 16px;
+      text-align: start;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .across-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    .across-content h1 {
+      font-size: 36px;
+      line-height: 40px;
+    }
+  
+    .across-content p {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .across-content h1 {
+      font-size: 28px;
+      line-height: 32px;
+    }
+  
+    .across-content p {
+      font-size: 14px;
+    }
+  
+    .across-section {
+      padding: 30px 15px;
+      min-height: auto;
+    }
+  }
+
+  /* section 2 */
+.process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+  }
+  .process-text {
+    width: 40%;
+  }
+  .process-text h2 {
+    font-size: 32px;
+  }
+  .process-text p {
+    font-size: 21px;
+  }
+  .process-text ul{
+    padding: 0px;
+  }
+  .process-text ul li {
+    font-size: 21px;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) {
+    .process {
+      flex-direction: column;
+    }
+    .process-text {
+      width: 90%;
+    }
+  }
+  @media (max-width: 425px) {
+    .process {
+      padding: 0px;
+    }
+    .process-img img {
+      width: 100%;
+    }
+  }
+
+  /* section 3 */
+
+.smart {
+    margin: auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f5f9fe;
+  }
+  .smart-content {
+    width: 40%;
+    line-height: 35px;
+  }
+  .smart-content p{
+    font-size: 21px;
+    margin-bottom: 20px;
+  }
+  .smart-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+  }
+  
+  .smart-content ul {
+    list-style-type: disc;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-size: 17px;
+  }
+  
+  .smart-content ul li {
+    color: #333;
+    font-size: 21px;
+    list-style: none;
+  }
+  
+  .smart-content a {
+    text-decoration: none;
+    background-color: rgba(44, 119, 211, 1);
+    padding: 15px 30px;
+    color: white;
+    border-radius: 4px;
+    position: relative;
+    top: 50px;
+  }
+  @media (max-width: 768px) {
+    .smart {
+      flex-direction: column-reverse;
+      text-align: center;
+      padding: 30px 15px;
+    }
+  .smart-content{
+      text-align: start;
+      width: 90%;
+  }
+    .smart-content h2 {
+      font-size: 26px;
+      text-align: start;
+    }
+  
+    .smart-content ul {
+      padding-left: 0;
+      list-style-position: inside;
+    }
+  
+    .smart-content a {
+      top: 15px;
+    }
+  
+    .smart-image img {
+      width: 100%;
+      margin-top: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .smart-content h2 {
+      font-size: 22px;
+    }
+  
+    .smart-content ul {
+      font-size: 16px;
+      line-height: 1.6;
+      text-align: start;
+    }
+  
+    .smart-content a {
+      padding: 12px 24px;
+      font-size: 15px;
+    }
+  }
+
+  /* section 4 */
+.Built {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+  }
+  .Built-text {
+    width: 40%;
+    line-height: 35px;
+  }
+  .Built-text h2 {
+    font-size: 32px;
+  }
+  .Built-text p {
+    font-size: 21px;
+  }
+  
+  @media (max-width: 768px) {
+    .Built {
+      flex-direction: column;
+    }
+    .Built-text {
+      width: 90%;
+    }
+  }
+  @media (max-width: 425px) {
+    .Built {
+      padding: 0px;
+    }
+    .Built-img img {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,270 @@
+/* section 1 */
+.category-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f1f9f5;
+  gap: 50px;
+}
+
+.category-content h1 {
+  color: #0c8b51;
+  font-size: 50px;
+  line-height: 52px;
+  margin-bottom: 20px;
+}
+
+.category-content p {
+  font-size: 17px;
+  margin-bottom: 30px;
+  line-height: 24px;
+  font-family: "Arial", sans-serif;
+  max-width: 600px;
+}
+
+.category-image {
+  text-align: start;
+}
+
+.category-image img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 1024px) {
+  .category-section {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .category-content h1 {
+    font-size: 40px;
+    line-height: 44px;
+    text-align: start;
+  }
+
+  .neecategoryt-content p {
+    font-size: 16px;
+    text-align: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .category-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .category-content h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .category-content p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-content h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .category-content p {
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .category-section {
+    padding: 30px 15px;
+    min-height: auto;
+  }
+}
+
+/* section 2 */
+.process {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+.process-text {
+  width: 40%;
+}
+.process-text h2 {
+  font-size: 32px;
+}
+.process-text p {
+  font-size: 21px;
+}
+.process-text ul li {
+  font-size: 21px;
+}
+@media (max-width: 768px) {
+  .process {
+    flex-direction: column;
+  }
+  .process-text {
+    width: 90%;
+  }
+}
+@media (max-width: 425px) {
+  .process {
+    padding: 0px;
+  }
+  .process-img img {
+    width: 100%;
+  }
+}
+
+/* section 3 */
+
+.focus {
+  margin: auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f5f9fe;
+}
+
+.focus-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.focus-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  font-size: 17px;
+}
+
+.focus-content ul li {
+  color: #333;
+  font-size: 21px;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .focus {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 30px 15px;
+  }
+  .focus-content {
+    text-align: start;
+  }
+  .focus-content h2 {
+    font-size: 26px;
+    text-align: start;
+  }
+
+  .focus-content ul {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+
+  .focus-image img {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .focus-content h2 {
+    font-size: 22px;
+  }
+
+  .focus-content ul {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: start;
+  }
+}
+
+/* section 4 */
+
+.cover {
+  text-align: center;
+  color: #272727;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.cover h1 {
+  padding-bottom: 30px;
+}
+.cover-section {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.cover-item p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #6f6b80;
+}
+@media (max-width: 768px) {
+  .cover-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* section 5 */
+.Clarity-neet {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: #f5f9fe;
+}
+.Clarity-img img {
+  margin-top: 50px;
+  width: 100%;
+}
+.Clarity-text {
+  width: 40%;
+}
+.Clarity-text p {
+  line-height: 40px;
+  margin-top: 20px;
+  font-size: 17px;
+  max-width: 600px;
+}
+
+.Clarity-text h1 {
+  font-size: 34px;
+  font-family: "Yeseva One", serif;
+  font-style: normal;
+  color: #272727;
+  line-height: 46px;
+}
+@media screen and (max-width: 1132px) {
+  .Clarity-img img {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .Clarity-neet {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .Clarity-img img {
+    margin-top: 0;
+  }
+  .Clarity-text {
+    margin-top: 80px;
+    width: auto;
+  }
+}

@@ -1,0 +1,264 @@
+.comes-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f1f9f5;
+  gap: 50px;
+}
+.comes-content {
+  width: 40%;
+  padding: 0px 20px;
+}
+.comes-content h1 {
+  color: #0c8b51;
+  line-height: 52px;
+  margin-bottom: 20px;
+}
+
+.comes-content p {
+  margin-bottom: 30px;
+  line-height: 27px;
+  max-width: 600px;
+  
+}
+
+.comes-image {
+  text-align: start;
+}
+
+.comes-image img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 1024px) {
+  .comes-section {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .comes-content h1 {
+    line-height: 44px;
+    text-align: start;
+  }
+
+  .comes-content p {
+    text-align: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .comes-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .comes-content h1 {
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .comes-content h1 {
+    line-height: 32px;
+  }
+
+  .comes-section {
+    padding: 30px 15px;
+  }
+}
+
+/* section 2 */
+.Built {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+.Built-text {
+  width: 40%;
+  line-height: 35px;
+}
+
+@media (max-width: 768px) {
+  .Built {
+    flex-direction: column;
+  }
+  .Built-text {
+    width: 90%;
+  }
+}
+@media (max-width: 425px) {
+  .Built {
+    padding: 0px;
+  }
+  .Built-img img {
+    width: 100%;
+  }
+}
+
+/* section 3  */
+.statewise {
+  margin: auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f5f9fe;
+}
+.statewise-content {
+  width: 40%;
+  line-height: 35px;
+}
+.statewise-content p {
+  margin-bottom: 20px;
+}
+.statewise-content h1 {
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.statewise-content ul {
+  list-style-type: disc;
+  padding-left: 0px;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+
+.statewise-content ul li {
+  color: #333;
+  list-style: none;
+}
+
+.statewise-content a {
+  text-decoration: none;
+  background-color: rgba(44, 119, 211, 1);
+  padding: 15px 30px;
+  color: white;
+  border-radius: 4px;
+  position: relative;
+  top: 50px;
+}
+@media (max-width: 768px) {
+  .statewise {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 30px 15px;
+  }
+  .statewise-content {
+    text-align: start;
+    width: 90%;
+  }
+  .statewise-content h1 {
+    text-align: start;
+  }
+
+  .statewise-content ul {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+
+  .statewise-content a {
+    top: 15px;
+  }
+
+  .statewise-image img {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .statewise-content ul {
+    line-height: 1.6;
+    text-align: start;
+  }
+
+  .statewise-content a {
+    padding: 12px 24px;
+  }
+}
+/* section 4 */
+.guess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+.guess-text {
+  width: 40%;
+}
+.guess-text ul {
+  padding-left: 0px;
+}
+.guess-text ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .guess {
+    flex-direction: column;
+  }
+  .guess-text {
+    width: 90%;
+  }
+}
+@media (max-width: 425px) {
+  .guess {
+    padding: 0px;
+  }
+  .guess-img img {
+    width: 100%;
+  }
+}
+
+/* section 5 */
+.reduce {
+  margin: auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f5f9fe;
+}
+
+.reduce-content h1 {
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+.reduce-content {
+  width: 40%;
+}
+.reduce-content p {
+  line-height: 40px;
+}
+@media (max-width: 768px) {
+  .reduce {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 30px 15px;
+  }
+  .reduce-content {
+    text-align: start;
+    width: 90%;
+  }
+  .reduce-content h1 {
+    text-align: start;
+  }
+
+  .reduce-image img {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .reduce-content a {
+    padding: 12px 24px;
+  }
+}

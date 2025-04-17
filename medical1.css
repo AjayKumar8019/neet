@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(241, 249, 245, 1);
+}
+.the-medical {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.med-text h1 {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(12, 139, 81, 1);
+    margin-top: 25px;
+    font-size: 50px;
+}
+.med-text p {
+    line-height: 24px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.med-img img{
+    width:100%
+}
+@media screen and (max-width:1365px){
+    .the-medical{
+        gap:20px
+    }
+}
+@media screen and (max-width:650px){
+    .the-medical{
+        padding-inline-start: 20px;
+        padding-inline-end: 20px;
+    }
+    .med-text h1{
+        font-size: 35px;
+    }
+    .med-text p{
+        font-size: 15px;
+    }
+}
+.medical-UG{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:100px;
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+.medical-UG h1{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 25px;
+    font-size: 35px;
+}
+.medical-UG p{
+    line-height: 24px;
+    margin-top:10px
+}
+.medical-UG a{
+    background-color: rgba(44, 119, 211, 1);
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    position: relative;
+    top: 50px;
+}
+.medical-UG img{
+    width:100%
+}
+@media screen and (max-width:768px){
+    .medical-UG{
+        padding-inline-start: 20px;
+        padding-inline-end: 20px;
+        gap:80px;
+        padding-bottom: 50px;
+    }
+}

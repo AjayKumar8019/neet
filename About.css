@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* section 1 */
+.Looking-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 50px 20px;
+  gap: 50px;
+  background-color: #f1f9f5;
+}
+
+.Looking-content h1 {
+  color: #0c8b51;
+  font-size: 50px;
+  line-height: 52px;
+  margin-bottom: 20px;
+  
+}
+
+.Looking-content p {
+  font-size: 17px;
+  margin-bottom: 30px;
+  line-height: 24px;
+  font-family: "Arial", sans-serif;
+  max-width: 600px;
+}
+
+.Looking-image {
+  text-align: start;
+}
+
+.Looking-image img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 1024px) {
+  .Looking-section {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .Looking-content h1 {
+    font-size: 40px;
+    line-height: 44px;
+    text-align: start;
+  }
+
+  .Looking-content p {
+    font-size: 16px;
+    text-align: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .Looking-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Looking-content h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .Looking-content p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Looking-content h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .Looking-content p {
+    font-size: 14px;
+  }
+
+  .Looking-section {
+    padding: 30px 15px;
+    min-height: auto;
+  }
+}
+
+/* section 2 */
+
+.whaat-neet {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.whaat-img img {
+  margin-top: 50px;
+  width: 100%;
+}
+.whaat-text p {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.whaat-text a {
+  background-color: rgba(44, 119, 211, 1);
+  padding: 15px 30px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  position: relative;
+  top: 50px;
+}
+.whaat-text h1 {
+  font-size: 34px;
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #272727;
+}
+@media screen and (max-width: 1132px) {
+  .whaat-img img {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .whaat-neet {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    flex-direction: column-reverse;
+  }
+  .what-img img {
+    margin-top: 0;
+  }
+  .whaat-text {
+    margin-top: 80px;
+  }
+}
+
+/* section 3 */
+
+.what-neet {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+background-color: #f1f9f5;
+}
+.what-img img {
+  margin-top: 50px;
+  width: 100%;
+}
+.what-text p {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.what-text a {
+  background-color: rgba(44, 119, 211, 1);
+  padding: 15px 30px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  position: relative;
+  top: 50px;
+}
+.what-text h1 {
+  font-size: 34px;
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  color: #272727;
+  font-style: normal;
+}
+@media screen and (max-width: 1132px) {
+  .what-img img {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .what-neet {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    /* flex-direction: column-reverse; */
+  }
+  .what-img img {
+    margin-top: 0;
+  }
+  .what-text {
+    margin-top: 80px;
+  }
+}
+
+/* section 4 */
+
+.what-neet1 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.what-img img {
+  margin-top: 50px;
+  width: 100%;
+}
+.what-text p {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.what-text a {
+  background-color: rgba(44, 119, 211, 1);
+  padding: 15px 30px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  position: relative;
+  top: 50px;
+}
+.what-text h1 {
+  font-size: 34px;
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  color: #272727;
+  font-style: normal;
+}
+@media screen and (max-width: 1132px) {
+  .what-img img {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .what-neet1 {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    flex-direction: column-reverse;
+  }
+  .what-img img {
+    margin-top: 0;
+  }
+  .what-text {
+    margin-top: 80px;
+  }
+}
